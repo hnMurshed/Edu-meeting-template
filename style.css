@@ -10,7 +10,7 @@ p {
 }
 
 .container {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -50,7 +50,11 @@ p {
 .announce-bar .right-icons li {
     display: inline;
     padding: 5px 10px;
-} 
+}
+
+.announce-bar .right-icons li:last-child {
+    padding-right: 0;
+}
 
 .announce-bar .right-icons li a {
     text-decoration: none;
@@ -60,14 +64,9 @@ p {
 
 .header-section .menu {
     overflow: hidden;
-    padding: 20px 0;
-    background: rgba(255, 255, 255, 0.15)
-    ;
-}
-
-.header-section .menu:hover {
     background: rgba(255, 255, 255, 0.25)
     ;
+    padding: 20px 0;
 }
 
 .header-section .menu .logo-part {
@@ -79,23 +78,46 @@ p {
     float: right;
 }
 
-.header-section .menu .logo-part span {
+.header-section .menu .logo-part a {
     color: white;
-    font-size: 24px;
+    text-decoration: none;
+    font-size: 28px;
     text-transform: uppercase;
     font-weight: 700;
+    letter-spacing: 2px;
 }
 .header-section .menu .menu-part ul {
     list-syle: none;
     padding: 0;
     margin: 0;
+    margin-top: 7px;
 }
 
 .header-section .menu .menu-part li {
     display: inline;
-    color: white;
     text-transform: uppercase;
-    padding: 0 20px;
+    padding: 0 12px;
+}
+
+.header-section .menu .menu-part li:last-child {
+    padding-right: 0;
+}
+
+.header-section .menu .menu-part li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0s;
+}
+
+.header-section .menu .menu-part li .active {
+    color: #f5a425;
+}
+
+.header-section .menu .menu-part li:hover a {
+    color: #f5a425;
 }
 
 .header-section .welcome {
