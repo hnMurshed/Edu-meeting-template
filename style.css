@@ -199,6 +199,9 @@ p {
 
 .up-meeting-section {
     background-image: url("images/meetings-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
     padding: 260px 0 120px;
     margin-top: -181px;
 }
