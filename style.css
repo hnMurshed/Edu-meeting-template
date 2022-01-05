@@ -3,6 +3,12 @@ body {
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box; 
 }
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+}
 p {
     font-size: 14px;
     line-height: 25px;
@@ -20,7 +26,7 @@ p {
 .announce-bar {
     background-color: #1f272b;
 }
-.announce-bar .container {
+.flex-container {
     display: flex;
 }
 .half-width {
@@ -346,4 +352,41 @@ p {
 .up-meeting-section .meeting-item .date .dd {
     font-size: 20px;
     font-weight: 600;
+}
+/* up-meeting-section ends here */
+
+.apply-section {
+    background-image: url('images/apply-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 120px 0px;
+}
+.apply-section .half-width {
+    float: left;
+}
+.apply-section .apply {
+    padding: 40px;
+    background-color:rgba(255, 255, 255, 0.15);
+    margin: 30px 0;
+}
+.apply-section .apply p {
+    color: white;
+}
+.apply-section .right-area {
+    background-color: white;
+}
+.apply-section .right-area div {
+    padding: 0 40px;
+}
+.border-bottom {
+    border-bottom: 1px solid #eee;
+}
+.apply-section .right-area span {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.apply-section .right-area .icon {
+    float: right;
 }
