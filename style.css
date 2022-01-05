@@ -20,12 +20,7 @@ p {
 .announce-bar {
     background-color: #1f272b;
     overflow: hidden;
-}
-.announce-bar .left-col {
-    float: left;
-}
-.announce-bar .right-col {
-    float: right;
+    display: flex;
 }
 .announce-bar .left-content p {
     color: white;
