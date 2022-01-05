@@ -19,8 +19,12 @@ p {
 }
 .announce-bar {
     background-color: #1f272b;
-    overflow: hidden;
+}
+.announce-bar .container {
     display: flex;
+}
+.half-width {
+    width: 50%;
 }
 .announce-bar .left-content p {
     color: white;
@@ -30,6 +34,9 @@ p {
     text-decoration: none;
     font-size: 14px;
 }
+.announce-bar .right-col {
+    text-align: right;
+ }
 .announce-bar .right-icons ul {
     list-style: none;
 }
@@ -138,6 +145,202 @@ p {
     background-color: transparent;
 }
 
+/* service-section starts */
 
+.services-section {
+    margin-top: -175px;
+    position: relative;
+}
+.col-3 {
+    width: 31.33%;
+    float: left;
+}
+.col-3:nth-child(1) {
+    margin-right: 2%;
+}
+.col-3:nth-child(2) {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.col-3:nth-child(3) {
+    margin-left: 2%;
+}
+.service-item {
+    background-image: url("images/service-item-bg.jpg");
+    text-align: center;
+    color: white;
+    padding: 25px;
+    border-radius: 25px;
+}
+.service-item h4 {
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.services-section .angle-left {
+    position: absolute;
+    left: 20px;
+    top: 150px;
+}
+.services-section .angle-right {
+    position: absolute;
+    right: 20px;
+    top: 150px;
+}
+.services-section .angle {
+    font-size: 26px;
+    font-weight: 600;
+    padding: 12px 21px;
+    border-radius: 50%;
+    background-color: white;
+}
+/* services-section ends */
 
+/* up-meeting-section starts */
 
+.up-meeting-section {
+    background-image: url("images/meetings-bg.jpg");
+    padding: 260px 0 120px;
+    margin-top: -181px;
+}
+
+.up-meeting-section a {
+    text-decoration: none;
+}
+
+.up-meeting-section .section-title h2 {
+    margin-top: 0;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    line-height: 40px;
+}
+
+.up-meeting-section .meeting-cat {
+    background-color: white;
+    max-width: 220px;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.up-meeting-section .meeting-cat h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f272b;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+.up-meeting-section .meeting-cat ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.up-meeting-section .meeting-cat ul li a {
+    color: #1f272b;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    transition: all 0.3s ease 0s;
+}
+
+.up-meeting-section .meeting-cat ul li a:hover {
+    color: #a12c2f;
+}
+
+.up-meeting-section .meeting-cat button {
+    transition: 0.3s ease 0s;
+}
+
+.up-meeting-section .meeting-cat button:hover {
+    background-color: black;
+}
+
+.up-meeting-section .meeting-item {
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+}
+
+.up-meeting-section .mdl-part .meeting-item:first-child {
+    margin-bottom: 57px;
+}
+
+.up-meeting-section .right-part .meeting-item:first-child {
+    margin-bottom: 30px;
+}
+
+.up-meeting-section .meeting-item .pricing {
+    position:absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.up-meeting-section .meeting-item .pricing span {
+    font-size: 16px;
+    color:#1f272b;
+    font-weight: 600;
+    background-color:rgba(255, 255, 255, 0.9);
+    padding: 7px 12px;
+    border-radius: 10px;
+}
+
+.up-meeting-section .meeting-item img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.up-meeting-section .meeting-item .item-text {
+    padding: 30px;
+}
+
+.up-meeting-section .meeting-item .text {
+    overflow: hidden;
+}
+
+.up-meeting-section .meeting-item h3 {
+    margin: 0;
+    color: #1f272b;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.up-meeting-section .meeting-item p {
+    color: #1f272b;
+    font-size: 14px;
+    margin: 0;
+}
+
+.up-meeting-section .meeting-item .date {
+    float: left;
+    overflow: hidden;
+    margin-right: 25px;
+}
+
+.up-meeting-section .meeting-item .date span {
+    display: block;
+}
+
+.up-meeting-section .meeting-item .date .mm {
+    font-size: 13px;
+    font-weight: 600;
+    color: #a12c2f;
+}
+
+.up-meeting-section .meeting-item .date .dd {
+    font-size: 20px;
+    font-weight: 600;
+}
